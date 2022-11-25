@@ -5,7 +5,8 @@
 		"columns": [{
 			"name": "city_id",
 			"titles": {
-				"de": "Stadt Id"
+				"de": "Stadt Id",
+				"en": "city id"
 			},
 			"dc:description": {
 				"de": "ID der Stadt"
@@ -15,7 +16,8 @@
 		},{
 			"name": "id",
 			"titles": {
-				"de": "Id"
+				"de": "Id",
+				"en": "id"
 			},
 			"dc:description": {
 				"de": "ID der Futterbude"
@@ -28,14 +30,16 @@
 				"de": "Name"
 			},
 			"dc:description": {
-				"de": "Name der Futterbude"
+				"de": "Name der Futterbude",
+				"en": "name"
 			},
 			"datatype": "string",
 			"required": true
 		},{
 			"name": "street_name",
 			"titles": {
-				"de": "Straße"
+				"de": "Straße",
+				"en": "street name"
 			},
 			"dc:description": {
 				"de": "Name der Straße"
@@ -45,7 +49,8 @@
 		},{
 			"name": "street_number",
 			"titles": {
-				"de": "Stadt Id"
+				"de": "Straßennummer",
+				"en": "street number"
 			},
 			"dc:description": {
 				"de": "ID der Stadt"
@@ -55,7 +60,8 @@
 		},{
 			"name": "postal_code",
 			"titles": {
-				"de": "Postleitzahl"
+				"de": "Postleitzahl",
+				"en": "postal code"
 			},
 			"dc:description": {
 				"de": "Postleitzahl der Futterbude"
@@ -65,7 +71,8 @@
 		},{
 			"name": "category",
 			"titles": {
-				"de": "Kategorie"
+				"de": "Kategorie",
+				"en": "category"
 			},
 			"dc:description": {
 				"de": "Art der Futterbude"
@@ -75,7 +82,8 @@
 		},{
 			"name": "rating",
 			"titles": {
-				"de": "Bewertung"
+				"de": "Bewertung",
+				"en": "rating"
 			},
 			"dc:description": {
 				"de": "Bewertung der Futterbude"
