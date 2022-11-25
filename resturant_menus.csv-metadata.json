@@ -9,7 +9,8 @@
 				"en": "city id"
 			},
 			"dc:description": {
-				"de": "ID der Stadt"
+				"de": "ID der Stadt",
+				"en": "Id of the city"
 			},
 			"datatype": "number",
 			"required": true
@@ -20,18 +21,20 @@
 				"en": "id"
 			},
 			"dc:description": {
-				"de": "ID der Futterbude"
+				"de": "ID der Futterbude",
+				"en": "Id of restaurant"
 			},
 			"datatype": "number",
 			"required": true
 		},{
 			"name": "name",
 			"titles": {
-				"de": "Name"
+				"de": "Name",
+				"en": "name"
 			},
 			"dc:description": {
 				"de": "Name der Futterbude",
-				"en": "name"
+				"en": "Name of the restaurant"
 			},
 			"datatype": "string",
 			"required": true
@@ -42,7 +45,8 @@
 				"en": "street name"
 			},
 			"dc:description": {
-				"de": "Name der Straße"
+				"de": "Name der Straße",
+				"en": "Name of the street"
 			},
 			"datatype": "string",
 			"required": true
@@ -53,7 +57,8 @@
 				"en": "street number"
 			},
 			"dc:description": {
-				"de": "ID der Stadt"
+				"de": "ID der Stadt",
+				"en": "ID of street"
 			},
 			"datatype": "string",
 			"required": true
@@ -64,7 +69,8 @@
 				"en": "postal code"
 			},
 			"dc:description": {
-				"de": "Postleitzahl der Futterbude"
+				"de": "Postleitzahl der Futterbude",
+				"en": "postal code of the restaurant"
 			},
 			"datatype": "string",
 			"required": true
@@ -75,7 +81,8 @@
 				"en": "category"
 			},
 			"dc:description": {
-				"de": "Art der Futterbude"
+				"de": "Art der Futterbude",
+				"en": "Category of cuisine"
 			},
 			"datatype": "string",
 			"required": true
@@ -86,7 +93,8 @@
 				"en": "rating"
 			},
 			"dc:description": {
-				"de": "Bewertung der Futterbude"
+				"de": "Bewertung der Futterbude",
+				"en": "rating of restaurant"
 			},
 			"datatype": "number",
 			"required": true
