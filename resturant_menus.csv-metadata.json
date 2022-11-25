@@ -1,0 +1,87 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "restaurant_menus.csv",
+	"tableSchema": {
+		"columns": [{
+			"name": "city_id",
+			"title": {
+				"de": "Stadt Id"
+			},
+			"dc:description": {
+				"de": "ID der Stadt"
+			},
+			"datatype": "number",
+			"required": true
+		},{
+			"name": "id",
+			"title": {
+				"de": "Id"
+			},
+			"dc:description": {
+				"de": "ID der Futterbude"
+			},
+			"datatype": "number",
+			"required": true
+		},{
+			"name": "name",
+			"title": {
+				"de": "Name"
+			},
+			"dc:description": {
+				"de": "Name der Futterbude"
+			},
+			"datatype": "string",
+			"required": true
+		},{
+			"name": "street_name",
+			"title": {
+				"de": "Straße"
+			},
+			"dc:description": {
+				"de": "Name der Straße"
+			},
+			"datatype": "string",
+			"required": true
+		},{
+			"name": "street_number",
+			"title": {
+				"de": "Stadt Id"
+			},
+			"dc:description": {
+				"de": "ID der Stadt"
+			},
+			"datatype": "string",
+			"required": true
+		},{
+			"name": "postal_code",
+			"title": {
+				"de": "Postleitzahl"
+			},
+			"dc:description": {
+				"de": "Postleitzahl der Futterbude"
+			},
+			"datatype": "string",
+			"required": true
+		},{
+			"name": "category",
+			"title": {
+				"de": "Kategorie"
+			},
+			"dc:description": {
+				"de": "Art der Futterbude"
+			},
+			"datatype": "string",
+			"required": true
+		},{
+			"name": "rating",
+			"title": {
+				"de": "Bewertung"
+			},
+			"dc:description": {
+				"de": "Bewertung der Futterbude"
+			},
+			"datatype": "number",
+			"required": true
+		}]
+	}
+}
