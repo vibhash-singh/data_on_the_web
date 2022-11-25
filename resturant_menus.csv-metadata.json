@@ -4,7 +4,7 @@
 	"tableSchema": {
 		"columns": [{
 			"name": "city_id",
-			"title": {
+			"titles": {
 				"de": "Stadt Id"
 			},
 			"dc:description": {
@@ -14,7 +14,7 @@
 			"required": true
 		},{
 			"name": "id",
-			"title": {
+			"titles": {
 				"de": "Id"
 			},
 			"dc:description": {
@@ -24,7 +24,7 @@
 			"required": true
 		},{
 			"name": "name",
-			"title": {
+			"titles": {
 				"de": "Name"
 			},
 			"dc:description": {
@@ -34,7 +34,7 @@
 			"required": true
 		},{
 			"name": "street_name",
-			"title": {
+			"titles": {
 				"de": "Straße"
 			},
 			"dc:description": {
@@ -44,7 +44,7 @@
 			"required": true
 		},{
 			"name": "street_number",
-			"title": {
+			"titles": {
 				"de": "Stadt Id"
 			},
 			"dc:description": {
@@ -54,7 +54,7 @@
 			"required": true
 		},{
 			"name": "postal_code",
-			"title": {
+			"titles": {
 				"de": "Postleitzahl"
 			},
 			"dc:description": {
@@ -64,7 +64,7 @@
 			"required": true
 		},{
 			"name": "category",
-			"title": {
+			"titles": {
 				"de": "Kategorie"
 			},
 			"dc:description": {
@@ -74,7 +74,7 @@
 			"required": true
 		},{
 			"name": "rating",
-			"title": {
+			"titles": {
 				"de": "Bewertung"
 			},
 			"dc:description": {
