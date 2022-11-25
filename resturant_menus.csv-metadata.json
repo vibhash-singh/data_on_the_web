@@ -57,7 +57,7 @@
 				"en": "street number"
 			},
 			"dc:description": {
-				"de": "ID der Stadt",
+				"de": "ID der Straße",
 				"en": "ID of street"
 			},
 			"datatype": "string",
