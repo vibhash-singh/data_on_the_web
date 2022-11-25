@@ -1,0 +1,119 @@
+[
+    {
+        "city": {
+            "id": 1,
+            "name": "Passau"
+        },
+        "id": 1,
+        "name": "",
+        "address": {
+            "street": {
+                "number": 1,
+                "name": ""
+            },
+            "postal_code": ""
+        },
+        "category": "",
+        "rating": 3,
+        "menu": [
+            {
+                "id": 1,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            },{
+                "id": 2,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            }
+        ]
+    },{
+        "city": {
+            "id": 1,
+            "name": "Passau"
+        },
+        "id": 1,
+        "name": "",
+        "address": {
+            "street": {
+                "number": 1,
+                "name": ""
+            },
+            "postal_code": ""
+        },
+        "category": "",
+        "rating": 3,
+        "menu": [
+            {
+                "id": 1,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            },{
+                "id": 2,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            }
+        ]
+    },{
+        "city": {
+            "id": 1,
+            "name": "Passau"
+        },
+        "id": 1,
+        "name": "",
+        "address": {
+            "street": {
+                "number": 1,
+                "name": ""
+            },
+            "postal_code": ""
+        },
+        "category": "",
+        "rating": 3,
+        "menu": [
+            {
+                "id": 1,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            },{
+                "id": 2,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            }
+        ]
+    },{
+        "city": {
+            "id": 1,
+            "name": "Passau"
+        },
+        "id": 1,
+        "name": "",
+        "address": {
+            "street": {
+                "number": 1,
+                "name": ""
+            },
+            "postal_code": ""
+        },
+        "category": "",
+        "rating": 3,
+        "menu": [
+            {
+                "id": 1,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            },{
+                "id": 2,
+                "name": "",
+                "cost": 1.0,
+                "category": ""
+            }
+        ]
+    }
+]
