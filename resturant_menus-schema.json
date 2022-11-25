@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Resturant Menus",
+    "description": "Collection of Resturant Menus",
+    "type": "array",
+    "properties": {
+        "city": {
+            "type": "object",
+            "properties": {
+                "id": { "type": "number" },
+                "name": { "type": "string" }
+            }
+        },
+        "id": { "type": "number" },
+        "name":  { "type": "string" },
+        "address": {
+            "type": "object",
+            "properties": {
+                "street": {
+                    "type": "object",
+                    "properties": {
+                        "number": { "type": "number" },
+                        "name": { "type": "string"}
+                    }
+                },
+                "postal_code": { "type": "string" }
+            }
+        },
+        "category": { "type": "string" },
+        "rating": { "type": "number"},
+        "menu": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        }
+    }
+}
