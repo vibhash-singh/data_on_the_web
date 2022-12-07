@@ -4,36 +4,124 @@
     "title": "Resturant Menus",
     "description": "Collection of Resturant Menus",
     "type": "array",
-    "properties": {
-        "city": {
-            "type": "object",
-            "properties": {
-                "id": { "type": "number" },
-                "name": { "type": "string" }
-            }
-        },
-        "id": { "type": "number" },
-        "name":  { "type": "string" },
-        "address": {
-            "type": "object",
-            "properties": {
-                "street": {
-                    "type": "object",
-                    "properties": {
-                        "number": { "type": "number" },
-                        "name": { "type": "string"}
+    "items": {
+        "type": "object",
+        "properties": {
+            "city": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
                     }
                 },
-                "postal_code": { "type": "string" }
+                "required": [
+                    "id",
+                    "name"
+                ],
+                "additionalProperties": false
+            },
+            "id": {
+                "type": "number",
+                "minimum": 1
+            },
+            "name":  {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+            },
+            "address": {
+                "type": "object",
+                "properties": {
+                    "street": {
+                        "type": "object",
+                        "properties": {
+                            "number": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "name": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 100
+                            }
+                        },
+                        "required": [
+                            "number",
+                            "name"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "postal_code": {
+                        "type": "string",
+                        "pattern": "^(?!01000|99999)(0[1-9]\\d{3}|[1-9]\\d{4})$"
+                    }
+                },
+                "required": [
+                    "street",
+                    "postal_code"
+                ],
+                "additionalProperties": false
+            },
+            "category": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+            },
+            "rating": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+            },
+            "menu": {
+                "type": "array",
+                "items": {
+                    "properties": {
+                        "id": {
+                            "type": "number",
+                            "minimum": 1
+                        },
+                        "name": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100
+                        },
+                        "cost": {
+                            "type": "number",
+                            "exclusiveMinimum": 0
+                        },
+                        "category": {
+                            "type": "string",
+                            "enum": [
+                                "Vegan",
+                                "Veg",
+                                "NonVeg"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "id",
+                        "name",
+                        "cost",
+                        "category"
+                    ],
+                    "additionalProperties": false
+                }
             }
         },
-        "category": { "type": "string" },
-        "rating": { "type": "number"},
-        "menu": {
-            "type": "array",
-            "items": {
-                "type": "object"
-            }
-        }
+        "required": [
+            "city",
+            "id",
+            "name",
+            "address",
+            "category",
+            "rating"
+        ],
+        "additionalProperties": false
     }
 }
