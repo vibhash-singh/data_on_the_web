@@ -2,117 +2,490 @@
     {
         "city": {
             "id": 1,
-            "name": "Passau"
+            "name": "Berlin"
         },
         "id": 1,
-        "name": "",
+        "name": "MontRaw",
         "address": {
             "street": {
-                "number": 1,
-                "name": ""
+                "number": 189,
+                "name": "Torstraße"
             },
-            "postal_code": ""
+            "postal_code": "10115"
         },
-        "category": "",
-        "rating": 3,
+        "category": "Mediterranean",
+        "rating": 4.6,
         "menu": [
             {
                 "id": 1,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
-            },{
+                "name": "Montraw Ceviche",
+                "cost": 15,
+                "category": "Veg"
+            },
+            {
                 "id": 2,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
+                "name": "Kubana",
+                "cost": 8,
+                "category": "Veg"
+            },
+            {
+                "id": 3,
+                "name": "Beef Tartare",
+                "cost": 16,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Winter Salad",
+                "cost": 13,
+                "category": "NonVeg"
+            },
+            {
+                "id": 5,
+                "name": "Mushroom Risotto",
+                "cost": 22,
+                "category": "Veg"
             }
         ]
-    },{
+    },
+    {
         "city": {
             "id": 1,
-            "name": "Passau"
+            "name": "Berlin"
         },
-        "id": 1,
-        "name": "",
+        "id": 2,
+        "name": "Willis",
         "address": {
             "street": {
-                "number": 1,
-                "name": ""
+                "number": 4,
+                "name": "Wisbyer Str."
             },
-            "postal_code": ""
+            "postal_code": "10439"
         },
-        "category": "",
-        "rating": 3,
+        "category": "Vietnamese",
+        "rating": 4.8,
         "menu": [
             {
                 "id": 1,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
-            },{
+                "name": "Sup Sua Dua",
+                "cost": 5,
+                "category": "Veg"
+            },
+            {
                 "id": 2,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
+                "name": "Edamame",
+                "cost": 5,
+                "category": "Veg"
+            },
+            {
+                "id": 3,
+                "name": "Bo Sot Tieu Den",
+                "cost": 11.9,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Vitamin Ginger",
+                "cost": 12.9,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Curry Wang",
+                "cost": 12.9,
+                "category": "Veg"
             }
         ]
-    },{
+    },
+    {
         "city": {
             "id": 1,
-            "name": "Passau"
+            "name": "Berlin"
         },
-        "id": 1,
-        "name": "",
+        "id": 3,
+        "name": "Sapori di Casa",
         "address": {
             "street": {
-                "number": 1,
-                "name": ""
+                "number": 61,
+                "name": "Wilsnacker Str."
             },
-            "postal_code": ""
+            "postal_code": "10599"
         },
-        "category": "",
-        "rating": 3,
+        "category": "Italian",
+        "rating": 4.8,
         "menu": [
             {
                 "id": 1,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
-            },{
+                "name": "bruschetta",
+                "cost": 3.8,
+                "category": "Veg"
+            },
+            {
                 "id": 2,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
+                "name": "caponata siciliana",
+                "cost": 10.50,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "vitello tonnato",
+                "cost": 11,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Lasagna",
+                "cost": 10.5,
+                "category": "NonVeg"
+            },
+            {
+                "id": 5,
+                "name": "prawns al vino",
+                "cost": 22.5,
+                "category": "NonVeg"
             }
         ]
-    },{
+    },
+    {
         "city": {
             "id": 1,
-            "name": "Passau"
+            "name": "Berlin"
         },
-        "id": 1,
-        "name": "",
+        "id": 4,
+        "name": "Amrit",
         "address": {
             "street": {
-                "number": 1,
-                "name": ""
+                "number": 204,
+                "name": "Oranienstraße"
             },
-            "postal_code": ""
+            "postal_code": "10999"
         },
-        "category": "",
-        "rating": 3,
+        "category": "Indian",
+        "rating": 4.4,
         "menu": [
             {
                 "id": 1,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
-            },{
+                "name": "Dal ka Shorba",
+                "cost": 3.8,
+                "category": "Veg"
+            },
+            {
                 "id": 2,
-                "name": "",
-                "cost": 1.0,
-                "category": ""
+                "name": "Chicken pakoras",
+                "cost": 4.90,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "Taj Mahal Kofta",
+                "cost": 10.90,
+                "category": "Veg"
+            },
+            {
+                "id": 4,
+                "name": "Amritsari Chole",
+                "cost": 9.90,
+                "category": "Vegan"
+            },
+            {
+                "id": 5,
+                "name": "Yellow Daal Tadka",
+                "cost": 9.90,
+                "category": "Vegan"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 1,
+            "name": "Berlin"
+        },
+        "id": 5,
+        "name": "Salamat",
+        "address": {
+            "street": {
+                "number": 1,
+                "name": "Gartenstraße"
+            },
+            "postal_code": "10115"
+        },
+        "category": "Middle Eastern",
+        "rating": 4.6,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Chickpeasoup",
+                "cost": 5,
+                "category": "Veg"
+            },
+            {
+                "id": 2,
+                "name": "Chickensoup",
+                "cost": 5,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "Hummus",
+                "cost": 8,
+                "category": "Veg"
+            },
+            {
+                "id": 4,
+                "name": "Makali",
+                "cost": 9,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Tigris Plate",
+                "cost": 18,
+                "category": "NonVeg"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 2,
+            "name": "Regensburg"
+        },
+        "id": 6,
+        "name": "Gaststätte Gravenreuther",
+        "address": {
+            "street": {
+                "number": 10,
+                "name": "Hinter d. Grieb"
+            },
+            "postal_code": "93047"
+        },
+        "category": "Bavarian",
+        "rating": 4.5,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Regensburg Sausage Salad",
+                "cost": 9.40,
+                "category": "NonVeg"
+            },
+            {
+                "id": 2,
+                "name": "Swiss sausage salad",
+                "cost": 10.40,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "Beef tartare",
+                "cost": 15.90,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "baked potato",
+                "cost": 9.40,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Liver spaetzle soup",
+                "cost": 4.90,
+                "category": "NonVeg"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 2,
+            "name": "Regensburg"
+        },
+        "id": 7,
+        "name": "GuacamoPapageno Mittelmeerküchele",
+        "address": {
+            "street": {
+                "number": 14,
+                "name": "Keplerstraße"
+            },
+            "postal_code": "93047"
+        },
+        "category": "Italian",
+        "rating": 4.5,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Antipasti Misti.",
+                "cost": 16.80,
+                "category": "NonVeg"
+            },
+            {
+                "id": 2,
+                "name": "Oliven",
+                "cost": 5.90,
+                "category": "Veg"
+            },
+            {
+                "id": 3,
+                "name": "Vitello Tonnato",
+                "cost": 11.50,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Insalata Caprese",
+                "cost": 9.0,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Pizza Pane",
+                "cost": 8.80,
+                "category": "Veg"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 2,
+            "name": "Regensburg"
+        },
+        "id": 8,
+        "name": "Restaurant Valentino",
+        "address": {
+            "street": {
+                "number": 61,
+                "name": "Kumpfmühler Str."
+            },
+            "postal_code": "93051"
+        },
+        "category": "Italian",
+        "rating": 4.7,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Insalata Mista",
+                "cost": 7.90,
+                "category": "Veg"
+            },
+            {
+                "id": 2,
+                "name": "Insalata Contandino",
+                "cost": 14.90,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "Scampi al Forno",
+                "cost": 10.90,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Bruschetta",
+                "cost": 7.90,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Carpaccio",
+                "cost": 13.90,
+                "category": "Veg"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 2,
+            "name": "Regensburg"
+        },
+        "id": 9,
+        "name": "VyVu Vietnam",
+        "address": {
+            "street": {
+                "number": 9,
+                "name": "Prinz-Ludwig-Straße"
+            },
+            "postal_code": "93055"
+        },
+        "category": "Italian",
+        "rating": 4.6,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Bo Xao Dau",
+                "cost": 17.50,
+                "category": "NonVeg"
+            },
+            {
+                "id": 2,
+                "name": "Bo Xao Tieu",
+                "cost": 17.50,
+                "category": "NonVeg"
+            },
+            {
+                "id": 3,
+                "name": "Tom Xao Dau",
+                "cost": 20.90,
+                "category": "NonVeg"
+            },
+            {
+                "id": 4,
+                "name": "Zander bok choy",
+                "cost": 19.50,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Vit Xao Tieu",
+                "cost": 19.50,
+                "category": "NonVeg"
+            }
+        ]
+    },
+    {
+        "city": {
+            "id": 2,
+            "name": "Regensburg"
+        },
+        "id": 10,
+        "name": "Hans im glück",
+        "address": {
+            "street": {
+                "number": 6,
+                "name": "Kohlenmarkt"
+            },
+            "postal_code": "93047"
+        },
+        "category": "Bavarian",
+        "rating": 4.3,
+        "menu": [
+            {
+                "id": 1,
+                "name": "Golden Fries",
+                "cost": 5.50,
+                "category": "Vegan"
+            },
+            {
+                "id": 2,
+                "name": "Geleit",
+                "cost": 5.8,
+                "category": "Vegan"
+            },
+            {
+                "id": 3,
+                "name": "hornträger",
+                "cost": 11.90,
+                "category": "Veg"
+            },
+            {
+                "id": 4,
+                "name": "abendrot",
+                "cost": 11.90,
+                "category": "Veg"
+            },
+            {
+                "id": 5,
+                "name": "Bravur",
+                "cost": 15.50,
+                "category": "NonVeg"
             }
         ]
     }
