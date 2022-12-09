@@ -37,7 +37,8 @@
 				"en": "Name of the restaurant"
 			},
 			"datatype": "string",
-			"required": true
+			"required": true,
+			"propertyUrl": "http://schema.org/name"
 		},{
 			"name": "street_name",
 			"titles": {
@@ -85,7 +86,8 @@
 				"en": "Category of cuisine"
 			},
 			"datatype": "string",
-			"required": true
+			"required": true,
+			"propertyUrl": "http://schema.org/servesCuisine"
 		},{
 			"name": "rating",
 			"titles": {
