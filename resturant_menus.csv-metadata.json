@@ -99,7 +99,8 @@
 				"en": "rating of restaurant"
 			},
 			"datatype": "number",
-			"required": true
+			"required": true,
+			"propertyUrl": "http://schema.org/starRating"
 		}]
 	}
 }
