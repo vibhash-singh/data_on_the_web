@@ -1,9 +1,5 @@
 [
     {
-        "city": {
-            "id": 4,
-            "name": "Berlin"
-        },
         "id": 1,
         "name": "MontRaw",
         "address": {
@@ -11,7 +7,11 @@
                 "number": 189,
                 "name": "Torstraße"
             },
-            "postal_code": "10115"
+            "postal_code": "10115",
+            "city": {
+                "id": 4,
+                "name": "Berlin"
+            }
         },
         "category": "Mediterranean",
         "rating": 4.6,
@@ -49,10 +49,6 @@
         ]
     },
     {
-        "city": {
-            "id": 4,
-            "name": "Berlin"
-        },
         "id": 2,
         "name": "Willis",
         "address": {
@@ -60,7 +56,11 @@
                 "number": 4,
                 "name": "Wisbyer Str."
             },
-            "postal_code": "10439"
+            "postal_code": "10439",
+            "city": {
+                "id": 4,
+                "name": "Berlin"
+            }
         },
         "category": "Vietnamese",
         "rating": 4.8,
@@ -98,10 +98,6 @@
         ]
     },
     {
-        "city": {
-            "id": 4,
-            "name": "Berlin"
-        },
         "id": 3,
         "name": "Sapori di Casa",
         "address": {
@@ -109,7 +105,11 @@
                 "number": 61,
                 "name": "Wilsnacker Str."
             },
-            "postal_code": "10599"
+            "postal_code": "10599",
+            "city": {
+                "id": 4,
+                "name": "Berlin"
+            }
         },
         "category": "Italian",
         "rating": 4.8,
@@ -147,10 +147,6 @@
         ]
     },
     {
-        "city": {
-            "id": 4,
-            "name": "Berlin"
-        },
         "id": 4,
         "name": "Amrit",
         "address": {
@@ -158,7 +154,11 @@
                 "number": 204,
                 "name": "Oranienstraße"
             },
-            "postal_code": "10999"
+            "postal_code": "10999",
+            "city": {
+                "id": 4,
+                "name": "Berlin"
+            }
         },
         "category": "Indian",
         "rating": 4.4,
@@ -196,10 +196,6 @@
         ]
     },
     {
-        "city": {
-            "id": 4,
-            "name": "Berlin"
-        },
         "id": 5,
         "name": "Salamat",
         "address": {
@@ -207,7 +203,11 @@
                 "number": 1,
                 "name": "Gartenstraße"
             },
-            "postal_code": "10115"
+            "postal_code": "10115",
+            "city": {
+                "id": 4,
+                "name": "Berlin"
+            }
         },
         "category": "Middle Eastern",
         "rating": 4.6,
@@ -245,10 +245,6 @@
         ]
     },
     {
-        "city": {
-            "id": 3,
-            "name": "Regensburg"
-        },
         "id": 6,
         "name": "Gaststätte Gravenreuther",
         "address": {
@@ -256,7 +252,11 @@
                 "number": 10,
                 "name": "Hinter d. Grieb"
             },
-            "postal_code": "93047"
+            "postal_code": "93047",
+            "city": {
+                "id": 3,
+                "name": "Regensburg"
+            }
         },
         "category": "Bavarian",
         "rating": 4.5,
@@ -294,10 +294,6 @@
         ]
     },
     {
-        "city": {
-            "id": 3,
-            "name": "Regensburg"
-        },
         "id": 7,
         "name": "GuacamoPapageno Mittelmeerküchele",
         "address": {
@@ -305,7 +301,11 @@
                 "number": 14,
                 "name": "Keplerstraße"
             },
-            "postal_code": "93047"
+            "postal_code": "93047",
+            "city": {
+                "id": 3,
+                "name": "Regensburg"
+            }
         },
         "category": "Italian",
         "rating": 4.5,
@@ -343,10 +343,6 @@
         ]
     },
     {
-        "city": {
-            "id": 3,
-            "name": "Regensburg"
-        },
         "id": 8,
         "name": "Restaurant Valentino",
         "address": {
@@ -354,7 +350,11 @@
                 "number": 61,
                 "name": "Kumpfmühler Str."
             },
-            "postal_code": "93051"
+            "postal_code": "93051",
+            "city": {
+                "id": 3,
+                "name": "Regensburg"
+            }
         },
         "category": "Italian",
         "rating": 4.7,
@@ -392,10 +392,6 @@
         ]
     },
     {
-        "city": {
-            "id": 3,
-            "name": "Regensburg"
-        },
         "id": 9,
         "name": "VyVu Vietnam",
         "address": {
@@ -403,7 +399,11 @@
                 "number": 9,
                 "name": "Prinz-Ludwig-Straße"
             },
-            "postal_code": "93055"
+            "postal_code": "93055",
+            "city": {
+                "id": 3,
+                "name": "Regensburg"
+            }
         },
         "category": "Italian",
         "rating": 4.6,
@@ -441,10 +441,6 @@
         ]
     },
     {
-        "city": {
-            "id": 3,
-            "name": "Regensburg"
-        },
         "id": 10,
         "name": "Hans im glück",
         "address": {
@@ -452,7 +448,11 @@
                 "number": 6,
                 "name": "Kohlenmarkt"
             },
-            "postal_code": "93047"
+            "postal_code": "93047",
+            "city": {
+                "id": 3,
+                "name": "Regensburg"
+            }
         },
         "category": "Bavarian",
         "rating": 4.3,
