@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix exv: <https://cu.opendata.cz/course-data-on-the-web/vocabulary/gasthaus/> .
+@prefix otherv: <https://cu.opendata.cz/course-data-on-the-web/vocabulary/machines/> .
+@prefix schema: <http://schema.org/> .
+
+exv:Gasthaus a rdfs:Class ;
+    rdfs:label "Restaurant"@en ;
+    rdfs:comment "A restaurant in a city in Germany" .
+
+exv:City a rdfs:Class ;
+    rdfs:label "A city"@en ;
+    rdfs:comment: "A city in Germany."@en .
+
+exv:Address a rdfs:Class ;
+    rdfs:label "Address"@en ;
+    rdfs:comment "An address in Germany"@en .
+
+exv:Street a rdfs:Class ;
+    rdfs:label "Street"@en ;
+    rdfs:comment "A street in Germany"@en .
+
+exv:Menu a rdfs:Class ;
+    rdfs:label "Menu"@en ;
+    rdfs:comment "A restaurant menu"@en .
+
+exv:FoodItem a rdfs:Class ;
+    rdfs:label "Food item"@en ;
+    rdfs:comment "Food item in a menu"@en .
+
+exv:city a rdf:Property ;
+    rdfs:label "city"@en ;
+    rdfs:comment "city to which this restaurant belomgs to in Germany"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range exv:City .
+
+exv:id a rdf:Property ;
+    rdfs:label "restaurant id"@en ;
+    rdfs:comment "unique id of a restaurant in Germany"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range xsd:integer .
+
+exv:name a rdf:Property ;
+    rdfs:label "restaurant name"@en ;
+    rdfs:comment "name of a restaurant in Germany"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range xsd:string .
+
+exv:category a rdfs:Bag ;
+    rdfs:label "category name"@en ;
+    rdfs:comment "category of a restaurant in Germany"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range xsd:string .
+
+exv:rating a rdf:Property ;
+    rdfs:label "restaurant rating"@en ;
+    rdfs:comment "rating of a restaurant in Germany"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range xsd:decimal .
+
+exv:menu a rdf:Property ;
+    rdfs:label "menu"@en ;
+    rdfs:comment "menu of the restaurant"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range exv:Menu .
+
+exv:id a rdf:Property ;
+    rdfs:label "city id"@en ;
+    rdfs:comment "unique id of a city in Germany"@en ;
+    rdfs:domain exv:City ;
+    rdfs:range xsd:integer .
+
+exv:name a rdf:Property ;
+    rdfs:label "city name"@en ;
+    rdfs:comment "name of a city in Germany"@en ;
+    rdfs:domain exv:City ;
+    rdfs:range xsd:string .
+
+exv:number a rdf:Property ;
+    rdfs:label "street number"@en ;
+    rdfs:comment "street number in Germany"@en ;
+    rdfs:domain exv:Street ;
+    rdfs:range xsd:integer .
+
+exv:name a rdf:Property ;
+    rdfs:label "street name"@en ;
+    rdfs:comment "name of the street in Germany"@en ;
+    rdfs:domain exv:Street ;
+    rdfs:range xsd:string .
+
+exv:postal_code a rdf:Property ;
+    rdfs:label "postal code"@en ;
+    rdfs:comment "postal code of the area in Germany where the restairant is located"@en ;
+    rdfs:domain exv:Address ;
+    rdfs:range xsd:string .
+
+exv:menu a rdf:Property ;
+    rdfs:label "menu"@en ;
+    rdfs:comment "menu of the restaurant"@en ;
+    rdfs:domain exv:Gasthaus ;
+    rdfs:range exv:Menu .
+
+exv:foodItem a rdf:Property ;
+    rdfs:label "food item"@en ;
+    rdfs:comment "a food item in the nemu"@en ;
+    rdfs:domain exv:Menu ;
+    rdfs:range exv:FoodItem .
+
+exv:id a rdf:Property ;
+    rdfs:label "food item id"@en ;
+    rdfs:comment "unique id of a food item in the menu"@en ;
+    rdfs:domain exv:FoodItem ;
+    rdfs:range xsd:integer .
+
+exv:name a rdf:Property ;
+    rdfs:label "food item name"@en ;
+    rdfs:comment "name of a food item in the menu"@en ;
+    rdfs:domain exv:FoodItem ;
+    rdfs:range xsd:string .
+
+exv:cost a rdf:Property ;
+    rdfs:label "food item cost"@en ;
+    rdfs:comment "cost of a food item in the menu"@en ;
+    rdfs:domain exv:FoodItem ;
+    rdfs:range xsd:decimal .
+
+exv:category a rdf:Property ;
+    rdfs:label "food item category"@en ;
+    rdfs:comment "category of a food item in the menu"@en ;
+    rdfs:domain exv:FoodItem ;
+    rdfs:range xsd:string .
