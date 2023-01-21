@@ -1,7 +1,24 @@
 {
-	"@context": "http://www.w3.org/ns/csvw",
+	"@id": "https://cu.opendata.cz/course-data-on-the-web/resource/gasthaus",
+	"@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+            "@language": "en",
+            "@base": "https://cu.opendata.cz/course-data-on-the-web/resource/gasthaus/"
+        },{
+            "dc": "http://purl.org/dc/terms/",
+            "flv": "https://cu.opendata.cz/course-data-on-the-web/vocabulary/gasthaus/"
+        }
+    ],
+	"dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+    },
 	"url": "restaurant_menus.csv",
 	"tableSchema": {
+		"aboutUrl": "{id}",
+        "primaryKey": "id",
 		"columns": [{
 			"name": "city_id",
 			"titles": {
@@ -101,6 +118,11 @@
 			"datatype": "number",
 			"required": true,
 			"propertyUrl": "http://schema.org/starRating"
+		},
+		{
+			"virtual": true,
+			"propertyUrl": "rdf:type",
+			"valueUrl": "flv:Gasthaus"
 		}]
 	}
 }
